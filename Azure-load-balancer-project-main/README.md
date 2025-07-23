@@ -1,4 +1,4 @@
-# Azure Load Balancer for E-commerce Platform
+# Azure Load Balancer using virtual machine
 
 ## High-Availability Web Infrastructure with Zone Distribution
 

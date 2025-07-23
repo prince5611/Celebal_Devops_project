@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Load Balancer Test - Server 2</title>
+    <style>
+        body { 
+            font-family: Arial, sans-serif; 
+            text-align: center; 
+            padding: 50px; 
+            background-color: #e8f5e8; 
+        }
+        h1 { color: #388e3c; }
+        .server-info { 
+            background-color: white; 
+            padding: 20px; 
+            border-radius: 10px; 
+            margin: 20px auto; 
+            max-width: 500px; 
+        }
+    </style>
+</head>
+<body>
+    <h1>Hello from VM2!</h1>
+    <div class="server-info">
+        <h2>Load Balancer Test Page</h2>
+        <p><strong>Server:</strong> lb-vm2</p>
+        <p><strong>Zone:</strong> Zone 1</p>
+        <p><strong>Status:</strong> Web Server Running</p>
+        <p><strong>Timestamp:</strong> <script>document.write(new Date().toLocaleString());</script></p>
+    </div>
+    <p>This page is served by the second backend server in your Azure Load Balancer configuration.</p>
+</body>
+</html>
